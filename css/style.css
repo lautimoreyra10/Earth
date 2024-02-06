@@ -1,0 +1,35 @@
+html, body, canvas{
+    margin: 0px;
+    min-height: 100%!important;
+    min-width: 100%!important;
+    color:white;
+}
+.flex{
+    background-color: black;
+    height: 100vh;
+}
+.tag{
+    margin-left:0px;
+    display:flex;
+    width:50%;
+    flex-direction:column;
+    justify-content: center;
+    padding-left:20px;
+    padding-right:20px;
+}
+.textito{
+    color:white;
+}
+.desvio{
+    color:white;
+    background-color: green;
+    display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    border-radius: 15%;
+}
+.containerDesvio{
+    padding-left: 5px;
+}
